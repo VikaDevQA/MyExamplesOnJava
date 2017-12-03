@@ -1,6 +1,17 @@
 Для запуска тестов из приложения allure-junit-example-master:
+Запуск (Вариант 1):
 1)Через консоль Windows войти в корень проекта;Ввести команду: allure serve /home/path/to/project/target/surefire-reports/
 2) В IDea перейти во вкладку Maven черз лупу
 3)Нажать "Execute Maven Goal"; Ввести команду: allure:serve
 
 Результат:Должен открыться браузер, откроется окно Allure с отчетом.Все!
+
+Запуск (Вариант 2):
+1)В Idea, на всякий случай, нажать Build->Rebuild project
+2)В Idea,на всякий случай, нажать Run->run
+3)В IDea перейти во вкладку Maven черз лупу
+4)Нажать clean, потом test
+Должен обновиться файл .xml, в котором находится отчет.Можно увидеть, например, через TotalComander время изменения файла в подпапке target папка проекта. 
+5)Через консоль Windows войти в корень проекта;Ввести команду: allure serve /home/path/to/project/target/surefire-reports/
+6) В IDea перейти во вкладку Maven черз лупу
+7)Нажать "Execute Maven Goal"; Ввести команду: allure:serve
