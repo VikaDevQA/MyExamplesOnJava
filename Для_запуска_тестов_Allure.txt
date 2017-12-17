@@ -15,3 +15,8 @@
 5)Через консоль Windows войти в корень проекта;Ввести команду: allure serve /home/path/to/project/target/surefire-reports/
 6) В IDea перейти во вкладку Maven черз лупу
 7)Нажать "Execute Maven Goal"; Ввести команду: allure:serve
+
+Запуск(Вариант 3):
+selenium-master.zip
+Источник пример:статья на Хабра:
+https://habrahabr.ru/post/134462/
